@@ -95,7 +95,9 @@ go test -race ./...    # no network needed
 [GitHub Actions](.github/workflows/ci.yml) runs gofmt, `go vet`, staticcheck,
 the tests with the race detector, and builds the Docker image.
 
-![Tests](docs/images/tests.png)
+| | |
+|---|---|
+| ![Tests](docs/images/tests.png) | ![CI](docs/images/ci.png) |
 
 ## History
 
